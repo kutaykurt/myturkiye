@@ -1,11 +1,24 @@
-@import '../../App.scss';
+@import "../../App.scss";
 
 .Header {
-    height: 60px;
-    background-color: $main-black;
+  height: 60px;
+  background-color: $main-black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
 }
 
-.top-line {
-    background-color: $main-white;
-    height: 1px;
+.header-list-container {
+  display: flex;
+}
+
+.header-list {
+  list-style-type: none;
+}
+
+.header-link {
+    color: $main-white;
+    text-decoration: none;
+    margin: 0px 10px
 }

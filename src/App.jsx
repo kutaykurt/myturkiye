@@ -7,6 +7,7 @@ import Videomainpage from "./components/Videomainpage/Videomainpage";
 function App() {
   return (
     <div className="App">
+      <div className="top-line" />
       <Header />
       <Videomainpage />
       <Routes>

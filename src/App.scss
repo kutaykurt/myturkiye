@@ -2,7 +2,7 @@
 
 $main-black: #222222;
 $main-white: #f7f7f7;
-$main-red: #e92121;
+$main-red: #d11313;
 
 * {
   padding: 0;
@@ -10,4 +10,9 @@ $main-red: #e92121;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
+}
+
+.top-line {
+  background-color: $main-white;
+  height: 1px;
 }
