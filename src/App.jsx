@@ -2,17 +2,19 @@ import { Route, Routes } from "react-router-dom";
 import "./App.scss";
 import Header from "./components/Header/Header";
 import Home from "./pages/Home/Home";
-import Videomainpage from "./components/Videomainpage/Videomainpage";
+import History from "./pages/History/History";
 
 function App() {
   return (
     <div className="App">
       <div className="top-line" />
       <Header />
-      <Videomainpage />
-      <Routes>
-        <Route path="./pages/Home" element={<Home />} />
-      </Routes>
+      <div className="routes-container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/history" element={<History />} />
+        </Routes>
+      </div>
     </div>
   );
 }

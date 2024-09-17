@@ -1,7 +1,7 @@
 @import "../../App.scss";
 
 .Header {
-  height: 60px;
+  height: 70px;
   background-color: $main-black;
   display: flex;
   justify-content: space-between;
@@ -20,5 +20,9 @@
 .header-link {
     color: $main-white;
     text-decoration: none;
-    margin: 0px 10px
+    margin: 0px 14px;
+
+    &:hover {
+      color: $main-red;
+    }
 }

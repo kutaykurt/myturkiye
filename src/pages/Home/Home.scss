@@ -1,0 +1,40 @@
+@import "../../App.scss";
+
+.Home {
+}
+
+.home-title {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 36px;
+}
+
+.home-welcome-text {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.facts-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 22px;
+}
+
+.fact-item {
+    margin: 10px 0px 0px 0px;
+}
+
+.facts-button-container {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.home-carousel-button {
+  background-color: $main-black;
+  border-width: 1px;
+  color: $main-white;
+  padding: 6px 20px;
+  margin: 0px 5px;
+  cursor: pointer;
+}
